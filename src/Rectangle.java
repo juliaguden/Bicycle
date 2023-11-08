@@ -7,7 +7,7 @@ public class Rectangle {
         width=pwidth;
     }
     public void display(){
-        System.out.println("length "+ length + " width "+ width);
+        System.out.println(" Rectangle length "+ length + " width "+ width);
     }
     public void getArea(){
         System.out.println(length * width);
