@@ -13,10 +13,19 @@ public class Main2 {
         B.getArea();
         B.getCircumference();
 
-        Student C = new Student (17,"Julia");
+        Student C = new Student (17,"Jack");
         C.display();
 
         C.getAge();
         C.getName();
+
+        BankAccount D = new BankAccount(12345678,1000);
+        D.display();
+        D.getBalance();
+        D.deposit(100);
+        D.withdraw(100);
+        D.transfer(250);
+
+
     }
 }
